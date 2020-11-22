@@ -1,17 +1,22 @@
 <html>
 <head>
-    <title>Exercice 9</title>
+    <title>Exercice 11</title>
 </head>
 <body>
-    <h1>Design pattern front</h1>
-    <h2>Wallet : <span id="sum">1000</span>$</h2>
-    <p>À payer : 100$</p>
-    <input type="text" placeholder="Nom..." id="name">
-    <input type="text" id="card" placeholder="Numéro de carte..."><button class="bt-payment">Payer</button>
-    <br><span id="valid"></span><br>
-    <p style="font-weight:bold">Historique :</p>
-    <div id="historical">Aucune transaction</div>
+    <h1>Horaires Opéra</h1>
 
-<script src="js/exercice9.js"></script>
+    <select id="selectMetro">
+        <option selected="selected">Sélectionner une ligne de métro</option>
+    </select>
+    <select id="selectLine"></select>
+
+    <div id="traffic">
+        <h3 id="trafficTitle"></h3>
+        <p id="trafficMessage"></p>
+    </div>
+    <div id="schedules"></div>
+    <div id="average"></div>
+ 
+<script src="js/td.js"></script>
 </body>
 </html>
